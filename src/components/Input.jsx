@@ -30,7 +30,7 @@ const Input = ( { onSendMessage} ) => {
   }, [])
 
   return (
-    <div className='fixed mt-3 bottom-2'>
+    <div className='fixed z-20 mt-3 bottom-2'>
         <form action="" onSubmit={handleSubmit}>
             <label htmlFor="" className='flex items-center relative'>
                 <textarea 
