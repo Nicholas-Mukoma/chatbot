@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div className='flex flex-row w-full px-12 mt-3'>
+    <div className='flex flex-row w-full px-3 xl:px-12 mt-3'>
         <div>
             <h1 className='text-sm xl:text-lg font-bold'>FriendAI</h1>
         </div>
