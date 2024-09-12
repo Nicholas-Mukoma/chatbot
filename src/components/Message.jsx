@@ -1,5 +1,6 @@
 import React from 'react'
-import icon from "../assets/friend.webp"
+// import icon from "../assets/friend.webp"
+import icon from "../assets/climate_person.png"
 
 const Message = ( {text }) => {
   return (
