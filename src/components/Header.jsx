@@ -2,9 +2,9 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div className='flex items-center flex-row w-full px-3 xl:px-12 mt-3'>
+    <div className='flex items-center flex-row w-full px-3 lg:px-12 xl:px-12 mt-3'>
         <div>
-            <h1 className='text-sm xl:text-lg font-bold'>FriendAI</h1>
+            <h1 className='text-sm xl:text-lg font-bold'>ClimateAI</h1>
         </div>
         <div className='flex items-center gap-x-3 xl:gap-x-6 ml-auto'>
             <h3 className='text-[12px] xl:text-lg text-gray-600'>

@@ -13,7 +13,8 @@ const Chat = () => {
     const newMessages = [
       ...messages,
       { type: 'Outgoing', text: userMessage},
-      { type: 'Incomming', text: "Hello I am your good friendHello I am your good friend Tell me something about yourself Hello I am your good friend Tell me something about yourself Hello I am your good friend Tell me something about yourself Hello I am your good friend Tell me something about yourself Hello I am your good friend Tell me something about yourself Hello I am your good friend Tell me something about yourself "}
+      { type: 'Incomming', text: `
+Climate change refers to long-term shifts in temperatures and weather patterns, primarily caused by human activities, particularly the burning of fossil fuels like coal, oil, and gas. These activities release large amounts of greenhouse gases, such as carbon dioxide (CO₂), into the atmosphere. These gases trap heat, leading to the "greenhouse effect," which causes the Earth's surface to warm up.`}
     ];
 
     setMessages(newMessages)
@@ -28,7 +29,7 @@ const Chat = () => {
 
   return (
     <div className='flex flex-col items-center justify-center mt-9 px-9  md:mt-9  sm:px-10 md:px-20 lg:px-40 xl:px-60'>
-      <OutPut text="Hello I am your good friend Tell me something about yourself" speed={12}/>
+      <OutPut text="Hello lets learn about climate change and save our planet!" speed={12}/>
       {messages.map((message, index) => message.type === 'Outgoing' ? (
         <Message key={index} text={message.text}/>
       ) : (

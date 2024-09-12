@@ -1,5 +1,6 @@
 import { useEffect, useState, useRef } from 'react'
-import icon from "../assets/friend.webp"
+// import icon from "../assets/friend.webp"
+import icon from "../assets/images.jpeg"
 
 const OutPut = ({text, speed}) => {
     
@@ -28,8 +29,8 @@ const OutPut = ({text, speed}) => {
     return (
     <div className='mr-auto '>
         <div className='flex flex-row gap-x-3 items-center'>
-            <img src={icon} alt="friends Icon" className='w-9 h-9 rounded-full border'/>
-            <p className='text-gray-700'>Friend</p>
+            <img src={icon} alt="friends Icon" className='w-9 h-9 rounded-full border object-cover'/>
+            <p className='text-gray-700'>ClimateAI</p>
         </div>
         <div className='mt-2  rounded-lg px-3 py-1 text-wrap text-ellipsis whitespace-normal break-words w-[70vw] min-w-[70vw]'>
         <div ref={textEndRef} className=""></div>
